@@ -1,6 +1,13 @@
-This Python script is designed to fetch the logo image URL from a given website. It uses the requests library to download the webpage and BeautifulSoup to parse the HTML.
-The get_logo_url function scans all <img> tags and checks if the alt attribute or the class name contains the word “logo.” If found, it returns the absolute URL of the image by joining the base website URL with the image source path using urljoin. If no such image is found or an error occurs during the process, it returns a corresponding message. 
-The urlin function simply prompts the user to input a website URL, which is passed to get_logo_url.
+# Website Logo Extractor
+
+This Python script is designed to fetch the logo image URL from a given website. It uses the `requests` library to download the webpage and `BeautifulSoup` to parse the HTML.
+
+##  How It Works
+
+The `get_logo_url` function scans all `<img>` tags and checks whether the `alt` attribute or the class name contains the word **"logo"**. If found, it returns the absolute URL of the image using `urljoin` to combine the base website URL and the image's `src`. If no such image is found or an error occurs, it returns a relevant message.
+
+The `urlin` function prompts the user to input a website URL, which is then passed to `get_logo_url`.
+
 
 However, this script does not work for some websites due to several technical reasons:
 
