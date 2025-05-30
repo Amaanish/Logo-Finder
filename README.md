@@ -22,3 +22,13 @@ However, this script does not work for some websites due to several technical re
 5. Lazy Loading or Malformed URLs: Logos using data-src or unusual paths may be missed.
 
 These are the technical limitations of the script in real-world applications. To improve it, one might need to incorporate a headless browser (like Selenium or Playwright), analyze CSS for background images, or improve image heuristics with machine learning.
+
+## How to install
+
+``` bash
+git clone https://github.com/Amaanish/Logo-Finder/
+```
+Import the .ipynb file into Google Collab or Jupyter
+
+Run the program and copy and paste the link to find the logo images.
+
