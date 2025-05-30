@@ -26,7 +26,7 @@ These are the technical limitations of the script in real-world applications. To
 ## How to run the program:
 
 ``` bash
-git clone https://github.com/Amaanish/Logo-Finder/
+git clone https://github.com/Amaanish/Logo-Finder.git
 ```
 Import the .ipynb file into Google Collab or Jupyter
 
